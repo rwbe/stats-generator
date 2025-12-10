@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="165" viewBox="0 0 340 165" fill="none">
+  <style>
+    .header { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+    .lang-percent { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+    
+    @media (prefers-color-scheme: light) {
+      .header { fill: #0969da; }
+      .lang-name { fill: #1f2328; }
+      .lang-percent { fill: #57606a; }
+      rect.bg { fill: #ffffff !important; stroke: #d0d7de !important; }
+      rect.progress-bg { fill: #e1e4e8 !important; }
+    }
+  </style>
+  
+  <rect class="bg" x="0.5" y="0.5" rx="6" width="339" height="164" fill="#0d1117" stroke="#30363d"/>
+  
+  <g transform="translate(20, 28)">
+    <text class="header">Top Languages</text>
+  </g>
+  
+  <g transform="translate(20, 48)">
+    <defs>
+      <clipPath id="progress-clip">
+        <rect x="0" y="0" width="300" height="8" rx="4"/>
+      </clipPath>
+    </defs>
+    <rect class="progress-bg" x="0" y="0" width="300" height="8" fill="#21262d" rx="4"/>
+    <g clip-path="url(#progress-clip)">
+      {{ progress_bar }}
+    </g>
+  </g>
+  
+  {{ lang_list }}
+</svg>
