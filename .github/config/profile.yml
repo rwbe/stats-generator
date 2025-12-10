@@ -1,0 +1,27 @@
+profile:
+  username: ${GITHUB_REPOSITORY_OWNER}
+
+display:
+  themes:
+    - dark
+    - light
+  max_languages: 8
+
+filters:
+  exclude_repos: []
+  exclude_languages: []
+  exclude_forks: false
+
+cards:
+  overview:
+    enabled: true
+    show_stars: true
+    show_forks: true
+    show_contributions: true
+    show_lines_changed: true
+    show_views: true
+    show_repos: true
+
+  languages:
+    enabled: true
+    style: progress_bar

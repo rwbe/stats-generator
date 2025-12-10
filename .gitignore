@@ -1,0 +1,34 @@
+# compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# packages and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# virtual environments
+.env
+.venv
+env/
+venv/
+
+# logs
+*.log
+
+# ide
+.idea/
+*.swp
+*.swo
+
+# cache
+.cache/
+.mypy_cache/
