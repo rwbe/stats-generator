@@ -1,20 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="340" height="165" viewBox="0 0 340 165" fill="none">
   <style>
-    .header { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
-    .stat-label { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
-    .stat-value { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
-    .icon { fill: #8b949e; }
-    
-    @media (prefers-color-scheme: light) {
-      .header { fill: #0969da; }
-      .stat-label { fill: #57606a; }
-      .stat-value { fill: #1f2328; }
-      .icon { fill: #57606a; }
-      rect.bg { fill: #ffffff !important; stroke: #d0d7de !important; }
-    }
+    .header { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #0969da; }
+    .stat-label { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #57606a; }
+    .stat-value { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #1f2328; }
+    .icon { fill: #57606a; }
   </style>
   
-  <rect class="bg" x="0.5" y="0.5" rx="6" width="339" height="164" fill="#0d1117" stroke="#30363d"/>
+  <rect class="bg" x="0.5" y="0.5" rx="6" width="339" height="164" fill="#ffffff" stroke="#d0d7de"/>
   
   <g transform="translate(20, 28)">
     <text class="header">Ricardo Willian's - GitHub Stats</text>
