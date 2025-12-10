@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="165" viewBox="0 0 340 165" fill="none">
+  <style>
+    .header { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+    .lang-percent { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+    
+    @media (prefers-color-scheme: light) {
+      .header { fill: #0969da; }
+      .lang-name { fill: #1f2328; }
+      .lang-percent { fill: #57606a; }
+      rect.bg { fill: #ffffff !important; stroke: #d0d7de !important; }
+      rect.progress-bg { fill: #e1e4e8 !important; }
+    }
+  </style>
+  
+  <rect class="bg" x="0.5" y="0.5" rx="6" width="339" height="164" fill="#0d1117" stroke="#30363d"/>
+  
+  <g transform="translate(20, 28)">
+    <text class="header">Top Languages</text>
+  </g>
+  
+  <g transform="translate(20, 48)">
+    <defs>
+      <clipPath id="progress-clip">
+        <rect x="0" y="0" width="300" height="8" rx="4"/>
+      </clipPath>
+    </defs>
+    <rect class="progress-bg" x="0" y="0" width="300" height="8" fill="#21262d" rx="4"/>
+    <g clip-path="url(#progress-clip)">
+      &lt;rect x=&#34;0&#34; y=&#34;0&#34; width=&#34;157.68299668300816&#34; height=&#34;8&#34; fill=&#34;#3178c6&#34;/&gt;&lt;rect x=&#34;157.68299668300816&#34; y=&#34;0&#34; width=&#34;95.85285752034756&#34; height=&#34;8&#34; fill=&#34;#f1e05a&#34;/&gt;&lt;rect x=&#34;253.5358542033557&#34; y=&#34;0&#34; width=&#34;21.853084014594106&#34; height=&#34;8&#34; fill=&#34;#663399&#34;/&gt;&lt;rect x=&#34;275.3889382179498&#34; y=&#34;0&#34; width=&#34;14.223018052247955&#34; height=&#34;8&#34; fill=&#34;#e34c26&#34;/&gt;&lt;rect x=&#34;289.61195627019777&#34; y=&#34;0&#34; width=&#34;4.94496025682478&#34; height=&#34;8&#34; fill=&#34;#178600&#34;/&gt;&lt;rect x=&#34;294.55691652702257&#34; y=&#34;0&#34; width=&#34;2.6109206334617348&#34; height=&#34;8&#34; fill=&#34;#41b883&#34;/&gt;&lt;rect x=&#34;297.1678371604843&#34; y=&#34;0&#34; width=&#34;1.609586286922255&#34; height=&#34;8&#34; fill=&#34;#3572A5&#34;/&gt;&lt;rect x=&#34;298.77742344740653&#34; y=&#34;0&#34; width=&#34;1.2225765525934413&#34; height=&#34;8&#34; fill=&#34;#b07219&#34;/&gt;
+    </g>
+  </g>
+  
+  
+  &lt;g transform=&#34;translate(20, 70)&#34;&gt;
+    &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;5&#34; fill=&#34;#3178c6&#34;/&gt;
+    &lt;text class=&#34;lang-name&#34; x=&#34;14&#34; y=&#34;8&#34;&gt;TypeScript&lt;/text&gt;
+    &lt;text class=&#34;lang-percent&#34; x=&#34;90&#34; y=&#34;8&#34;&gt;52.6%&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g transform=&#34;translate(175, 70)&#34;&gt;
+    &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;5&#34; fill=&#34;#f1e05a&#34;/&gt;
+    &lt;text class=&#34;lang-name&#34; x=&#34;14&#34; y=&#34;8&#34;&gt;JavaScript&lt;/text&gt;
+    &lt;text class=&#34;lang-percent&#34; x=&#34;90&#34; y=&#34;8&#34;&gt;32.0%&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g transform=&#34;translate(20, 88)&#34;&gt;
+    &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;5&#34; fill=&#34;#663399&#34;/&gt;
+    &lt;text class=&#34;lang-name&#34; x=&#34;14&#34; y=&#34;8&#34;&gt;CSS&lt;/text&gt;
+    &lt;text class=&#34;lang-percent&#34; x=&#34;90&#34; y=&#34;8&#34;&gt;7.3%&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g transform=&#34;translate(175, 88)&#34;&gt;
+    &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;5&#34; fill=&#34;#e34c26&#34;/&gt;
+    &lt;text class=&#34;lang-name&#34; x=&#34;14&#34; y=&#34;8&#34;&gt;HTML&lt;/text&gt;
+    &lt;text class=&#34;lang-percent&#34; x=&#34;90&#34; y=&#34;8&#34;&gt;4.7%&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g transform=&#34;translate(20, 106)&#34;&gt;
+    &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;5&#34; fill=&#34;#178600&#34;/&gt;
+    &lt;text class=&#34;lang-name&#34; x=&#34;14&#34; y=&#34;8&#34;&gt;C#&lt;/text&gt;
+    &lt;text class=&#34;lang-percent&#34; x=&#34;90&#34; y=&#34;8&#34;&gt;1.6%&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g transform=&#34;translate(175, 106)&#34;&gt;
+    &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;5&#34; fill=&#34;#41b883&#34;/&gt;
+    &lt;text class=&#34;lang-name&#34; x=&#34;14&#34; y=&#34;8&#34;&gt;Vue&lt;/text&gt;
+    &lt;text class=&#34;lang-percent&#34; x=&#34;90&#34; y=&#34;8&#34;&gt;0.9%&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g transform=&#34;translate(20, 124)&#34;&gt;
+    &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;5&#34; fill=&#34;#3572A5&#34;/&gt;
+    &lt;text class=&#34;lang-name&#34; x=&#34;14&#34; y=&#34;8&#34;&gt;Python&lt;/text&gt;
+    &lt;text class=&#34;lang-percent&#34; x=&#34;90&#34; y=&#34;8&#34;&gt;0.5%&lt;/text&gt;
+  &lt;/g&gt;
+  &lt;g transform=&#34;translate(175, 124)&#34;&gt;
+    &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;5&#34; fill=&#34;#b07219&#34;/&gt;
+    &lt;text class=&#34;lang-name&#34; x=&#34;14&#34; y=&#34;8&#34;&gt;Java&lt;/text&gt;
+    &lt;text class=&#34;lang-percent&#34; x=&#34;90&#34; y=&#34;8&#34;&gt;0.4%&lt;/text&gt;
+  &lt;/g&gt;
+</svg>
