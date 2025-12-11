@@ -1,24 +1,17 @@
 #!/usr/bin/env python3
 """
-statsgen - Profile Cards Generator
+statsgen - Profile cards generator
 run with: python main.py or python -m statsgen
 """
 
 import asyncio
-import os
-import sys
+from statsgen.runner import ProfileCardsRunner
 
 
 async def main():
-    """placeholder for the full runner"""
-    token = os.getenv("GITHUB_TOKEN") or os.getenv("ACCESS_TOKEN")
-    if not token:
-        print("error: GITHUB_TOKEN or ACCESS_TOKEN is required")
-        sys.exit(1)
-
-    print("statsgen - Profile Cards Generator")
-    print("=" * 40)
-    print("setup complete, waiting for more modules...")
+    """quick entry point for generating profile cards"""
+    runner = ProfileCardsRunner()
+    await runner.run()
 
 
 if __name__ == "__main__":
