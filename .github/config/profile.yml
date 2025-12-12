@@ -1,5 +1,5 @@
 profile:
-  username: ${GITHUB_REPOSITORY_OWNER}
+  username: ${GH_REPOSITORY_OWNER}
 
 display:
   themes:

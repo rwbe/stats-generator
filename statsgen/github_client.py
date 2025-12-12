@@ -29,7 +29,7 @@ class GitHubClient:
         max_concurrent: int = 10,
         retry_count: int = 3
     ):
-        self.token = token or os.getenv("GITHUB_TOKEN") or os.getenv("ACCESS_TOKEN")
+        self.token = token or os.getenv("GH_TOKEN") or os.getenv("ACCESS_TOKEN")
         self._session = session
         self._owns_session = session is None
         self._semaphore = asyncio.Semaphore(max_concurrent)
