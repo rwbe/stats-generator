@@ -38,16 +38,16 @@ jobs:
         id: validate
         run: |
           if [ -f ".github/config/profile.yml" ]; then
-            echo "valid=true" >> $GH_OUTPUT
+            echo "valid=true" >> $GIHUB_OUTPUT
           else
-            echo "valid=false" >> $GH_OUTPUT
+            echo "valid=false" >> $GITHUB_OUTPUT
             echo "::warning::No .github/config/profile.yml found, using defaults"
           fi
 
       - name: Detect themes
         id: themes
         run: |
-          echo 'matrix=["dark", "light"]' >> $GH_OUTPUT
+          echo 'matrix=["dark", "light"]' >> $GITHUB_OUTPUT
 
   build-cards:
     name: Build ${{ matrix.theme }} theme
