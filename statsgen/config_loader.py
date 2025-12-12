@@ -36,7 +36,7 @@ class ConfigLoader:
 
         username = self._resolve_env(profile.get("username", ""))
         if not username:
-            username = os.getenv("GH_REPOSITORY_OWNER", "")
+            username = os.getenv("GITHUB_REPOSITORY_OWNER", "")
 
         return ProfileConfig(
             username=username,
@@ -51,7 +51,7 @@ class ConfigLoader:
 
     def _load_from_env(self) -> ProfileConfig:
         """builds config from environment variables"""
-        username = os.getenv("GH_REPOSITORY_OWNER", os.getenv("GH_ACTOR", ""))
+        username = os.getenv("GITHUB_REPOSITORY_OWNER", os.getenv("GITHUB_ACTOR", ""))
 
         exclude_repos = []
         if excluded := os.getenv("EXCLUDED", ""):

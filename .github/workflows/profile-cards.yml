@@ -82,7 +82,6 @@ jobs:
       - name: Generate ${{ matrix.theme }} cards
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GH_REPOSITORY_OWNER: ${{ vars.GH_REPOSITORY_OWNER }}
           PROFILE_CONFIG: .github/config/profile.yml
           CARD_THEME: ${{ matrix.theme }}
         run: python -m statsgen --theme ${{ matrix.theme }}
