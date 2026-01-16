@@ -74,7 +74,13 @@ class GitHubClient:
         return {}
 
     async def rest(self, path: str, params: Optional[Dict] = None) -> Any:
-        """makes a REST API call with retry for 202 (processing) responses"""
+        """makes a REST API call with retry for 202 (processing) responses
+
+        handles special cases:
+        - 202: GitHub is computing stats, retry after delay
+        - 204: No content (empty repo, no contributors), return empty
+        - 403: Rate limit exceeded
+        """
         url = f"{self.REST_ENDPOINT}/{path.lstrip('/')}"
 
         async with self._semaphore:
@@ -85,9 +91,29 @@ class GitHubClient:
                     params=params
                 ) as resp:
                     if resp.status == 202:
+                        # GitHub is still computing stats, wait and retry
                         await asyncio.sleep(2)
                         continue
+                    if resp.status == 204:
+                        # No content - empty repo or no data available
+                        # Return empty list for endpoints that return arrays
+                        # Return empty dict for endpoints that return objects
+                        return [] if "stats" in path or "contributors" in path else {}
                     if resp.status == 403:
                         raise RateLimitError("GitHub API rate limit exceeded")
-                    return await resp.json()
+                    if resp.status == 404:
+                        # resource not found, return empty
+                        return {} if "views" in path else []
+
+                    # check content type before parsing JSON
+                    content_type = resp.headers.get("Content-Type", "")
+                    if "application/json" not in content_type:
+                        # not JSON content, return empty
+                        return {}
+
+                    # try to parse JSON, handle empty responses gracefully
+                    try:
+                        return await resp.json()
+                    except Exception:
+                        return {}
         return {}
