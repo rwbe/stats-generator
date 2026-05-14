@@ -27,7 +27,7 @@
     </defs>
     <rect class="progress-bg" x="0" y="0" width="300" height="8" fill="#21262d" rx="4"/>
     <g clip-path="url(#progress-clip)">
-      <rect x="0" y="0" width="143.75522949940714" height="8" fill="#3178c6"/><rect x="143.75522949940714" y="0" width="88.28311952613889" height="8" fill="#f1e05a"/><rect x="232.03834902554604" y="0" width="26.46925850315011" height="8" fill="#b07219"/><rect x="258.50760752869616" y="0" width="17.061444787311405" height="8" fill="#663399"/><rect x="275.56905231600757" y="0" width="9.552488573106015" height="8" fill="#3572A5"/><rect x="285.1215408891136" y="0" width="9.01543410735231" height="8" fill="#e34c26"/><rect x="294.1369749964659" y="0" width="3.837067583280375" height="8" fill="#178600"/><rect x="297.97404257974625" y="0" width="2.025957420253716" height="8" fill="#41b883"/>
+      <rect x="0" y="0" width="143.65034082805798" height="8" fill="#3178c6"/><rect x="143.65034082805798" y="0" width="88.21870518001805" height="8" fill="#f1e05a"/><rect x="231.86904600807603" y="0" width="26.449945638041402" height="8" fill="#b07219"/><rect x="258.3189916461174" y="0" width="17.048996180876212" height="8" fill="#663399"/><rect x="275.3679878269936" y="0" width="9.76440888846657" height="8" fill="#3572A5"/><rect x="285.1323967154602" y="0" width="9.00885614209533" height="8" fill="#e34c26"/><rect x="294.1412528575555" y="0" width="3.8342679291593478" height="8" fill="#178600"/><rect x="297.97552078671487" y="0" width="2.0244792132851037" height="8" fill="#41b883"/>
     </g>
   </g>
   
@@ -55,7 +55,7 @@
   <g transform="translate(20, 106)">
     <circle cx="5" cy="5" r="5" fill="#3572A5"/>
     <text class="lang-name" x="14" y="8">Python</text>
-    <text class="lang-percent" x="90" y="8">3.2%</text>
+    <text class="lang-percent" x="90" y="8">3.3%</text>
   </g>
   <g transform="translate(175, 106)">
     <circle cx="5" cy="5" r="5" fill="#e34c26"/>
