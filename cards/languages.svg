@@ -27,7 +27,7 @@
     </defs>
     <rect class="progress-bg" x="0" y="0" width="300" height="8" fill="#21262d" rx="4"/>
     <g clip-path="url(#progress-clip)">
-      <rect x="0" y="0" width="155.38028188533337" height="8" fill="#3178c6"/><rect x="155.38028188533337" y="0" width="80.08509222944411" height="8" fill="#f1e05a"/><rect x="235.4653741147775" y="0" width="24.003099722364656" height="8" fill="#b07219"/><rect x="259.46847383714214" y="0" width="15.471818395997616" height="8" fill="#663399"/><rect x="274.94029223313976" y="0" width="11.567484790110454" height="8" fill="#3572A5"/><rect x="286.5077770232502" y="0" width="8.175459992331536" height="8" fill="#e34c26"/><rect x="294.6832370155817" y="0" width="3.4795653921310477" height="8" fill="#178600"/><rect x="298.1628024077128" y="0" width="1.8371975922871886" height="8" fill="#41b883"/>
+      <rect x="0" y="0" width="166.39617182330235" height="8" fill="#3178c6"/><rect x="166.39617182330235" y="0" width="72.34314322838287" height="8" fill="#f1e05a"/><rect x="238.73931505168522" y="0" width="21.7960885564741" height="8" fill="#b07219"/><rect x="260.5354036081593" y="0" width="14.04923229872027" height="8" fill="#663399"/><rect x="274.58463590687956" y="0" width="13.163709505736918" height="8" fill="#3572A5"/><rect x="287.74834541261646" y="0" width="7.423751600579303" height="8" fill="#e34c26"/><rect x="295.17209701319575" y="0" width="3.159630060373694" height="8" fill="#178600"/><rect x="298.3317270735694" y="0" width="1.668272926430506" height="8" fill="#41b883"/>
     </g>
   </g>
   
@@ -35,37 +35,37 @@
   <g transform="translate(20, 70)">
     <circle cx="5" cy="5" r="5" fill="#3178c6"/>
     <text class="lang-name" x="14" y="8">TypeScript</text>
-    <text class="lang-percent" x="90" y="8">51.8%</text>
+    <text class="lang-percent" x="90" y="8">55.5%</text>
   </g>
   <g transform="translate(175, 70)">
     <circle cx="5" cy="5" r="5" fill="#f1e05a"/>
     <text class="lang-name" x="14" y="8">JavaScript</text>
-    <text class="lang-percent" x="90" y="8">26.7%</text>
+    <text class="lang-percent" x="90" y="8">24.1%</text>
   </g>
   <g transform="translate(20, 88)">
     <circle cx="5" cy="5" r="5" fill="#b07219"/>
     <text class="lang-name" x="14" y="8">Java</text>
-    <text class="lang-percent" x="90" y="8">8.0%</text>
+    <text class="lang-percent" x="90" y="8">7.3%</text>
   </g>
   <g transform="translate(175, 88)">
     <circle cx="5" cy="5" r="5" fill="#663399"/>
     <text class="lang-name" x="14" y="8">CSS</text>
-    <text class="lang-percent" x="90" y="8">5.2%</text>
+    <text class="lang-percent" x="90" y="8">4.7%</text>
   </g>
   <g transform="translate(20, 106)">
     <circle cx="5" cy="5" r="5" fill="#3572A5"/>
     <text class="lang-name" x="14" y="8">Python</text>
-    <text class="lang-percent" x="90" y="8">3.9%</text>
+    <text class="lang-percent" x="90" y="8">4.4%</text>
   </g>
   <g transform="translate(175, 106)">
     <circle cx="5" cy="5" r="5" fill="#e34c26"/>
     <text class="lang-name" x="14" y="8">HTML</text>
-    <text class="lang-percent" x="90" y="8">2.7%</text>
+    <text class="lang-percent" x="90" y="8">2.5%</text>
   </g>
   <g transform="translate(20, 124)">
     <circle cx="5" cy="5" r="5" fill="#178600"/>
     <text class="lang-name" x="14" y="8">C#</text>
-    <text class="lang-percent" x="90" y="8">1.2%</text>
+    <text class="lang-percent" x="90" y="8">1.1%</text>
   </g>
   <g transform="translate(175, 124)">
     <circle cx="5" cy="5" r="5" fill="#41b883"/>
